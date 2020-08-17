@@ -1,0 +1,145 @@
+* {
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  /* overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative; */
+  scroll-behavior: smooth;
+
+}
+
+body { padding-top: 70px !important }
+
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 10.33s;
+  margin-bottom: 5px;
+
+
+}
+
+
+.nav-name {
+  font-size: 17px;
+  padding-left: 71px;
+  list-style: none;
+  font-weight: 600;
+}
+
+.dor-nav li {
+  font-size: 17px;
+padding: 2px 8px 2px 8px;
+
+}
+
+.d-none {
+  text-align: center
+    ;
+}
+
+
+  p {
+    line-height: 20px;
+  }
+
+mat-sidenav-container {
+  height: 100%;
+
+}
+
+mat-sidenav-container i{
+font-size: 40px;
+position: sticky;
+background-color: white;
+}
+
+
+mat-sidenav {
+  background-color: #374250 !important;
+  width: 240px;
+  transition: opacity .4s ease-out;
+  box-sizing: border-box;
+}
+
+.carousel-control-prev:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-control-next:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+
+
+/*
+i {
+  margin-top: -15px;
+  padding-top: -15px;
+  padding-bottom: -15px;
+
+} */
+
+
+
+element.style {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+}
+
+
+.fas {
+margin-bottom:  -40px;}
+
+
+
+
+.wrapper {
+  position: relative;
+}
+
+/*
+*  The .navi properties are for styling only
+*  These properties can be changed or removed
+*/
+.navi {
+margin: 0 auto;
+width: 400px;
+}
+
+.navi li {
+  font-size: 1.4em;
+}
+
+/*
+*  Position the #infoi element in the top-right
+*  of the .wrapper element
+*/
+#infoi {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  /*
+  *  Styling only, the below can be changed or removed
+  *  depending on your use case
+  */
+  padding: 10px 10px;
+}
+
+.myClass {
+position: -webkit-sticky;
+position: sticky;
+bottom: 400px;
+padding-left: 400px;
+background-color: yellow;
+padding: 10px;
+font-size: 20px;
+}

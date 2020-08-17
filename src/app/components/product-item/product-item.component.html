@@ -1,0 +1,145 @@
+<!-- <div class="color-wrapper col-lg-3 col-md-6 col-sm-6">
+  <div class="img">
+    <img [src] = 'productItem.imgPath' class="card-img-top">
+    </div>
+
+
+      <div class="clearfix">
+        <h5 class="pull-left">{{productItem.name}}</h5><span class="price pull-right">{{productItem.price}}$</span>
+      </div>
+
+    </div> -->
+
+
+
+
+
+ <!-- <div id="proImg" class="card align-items-center proImg">
+  <br>
+  <div class="view overlay">
+    <img [src]='productItem.imgPath' id="proImg" height="250px" width="222px">
+
+    <a>
+    </a>
+  </div>
+
+  <div class="card-body text-center">
+    <a href="" class="grey-text">
+      <h5>New Collection</h5>
+    </a>
+    <h5>
+      <strong>
+        <a href="" class="dark-grey-text"><b>{{productItem.name}}</b></a>
+      </strong>
+    </h5>
+    <div class="price">
+      <h4 class="font-weight-bold blue-text" style="display: flex; justify-content: space-around;">
+        <i (click)="addToCart()" class="fas fa-shopping-cart" alt="view" style="color:rgb(46, 30, 30);"></i>
+        <strong>{{productItem.price}}$ </strong>
+        <i routerLink="/products/{{ productItem.id}}" class="far fa-eye" style="color: black;"></i>
+      </h4>
+
+    </div>
+
+  </div>
+
+
+
+</div>  -->
+
+
+
+
+<!--
+<div class="col-lg-3 col-md-6">
+  <div class="single-product" >
+    <div class="product-img">
+      <img class="img-fluid w-100" src="{{productItem.imgPath}}" alt="">
+      <div class="p_icon">
+        <a href="#">
+          <i routerLink="/products/{{ productItem.id}}" class="far fa-eye" style="color: black;"></i>
+        </a>
+        <a href="#">
+          <i class="ti-heart"></i>
+        </a>
+        <a href="#">
+          <i (click)="addToCart()" class="fas fa-shopping-cart" alt="view" style="color:rgb(46, 30, 30);"></i>
+        </a>
+      </div>
+    </div>
+    <div class="product-btm">
+      <a href="#" class="d-block">
+        <h4>{{productItem.name}}</h4>
+      </a>
+      <div class="mt-3">
+        <span class="mr-4">${{productItem.price}}</span>
+        <del>${{productItem.oldPrice}}</del>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!--
+
+<div class ="row">
+
+
+ <div class="col-lg-3 col-md-6">
+  <div class="single-product">
+    <div class="product-img">
+      <img class="img-fluid w-100" src="{{productItem.imgPath}}" alt="" />
+      <div class="p_icon">
+        <a href="#">
+          <i class="ti-eye"></i>
+        </a>
+        <a href="#">
+          <i class="ti-heart"></i>
+        </a>
+        <a href="#">
+          <i class="ti-shopping-cart"></i>
+        </a>
+      </div>
+    </div>
+    <div class="product-btm">
+      <a href="#" class="d-block">
+        <h4>Latest men’s sneaker</h4>
+      </a>
+      <div class="mt-3">
+        <span class="mr-4">$25.00</span>
+        <del>$35.00</del>
+      </div>
+    </div>
+  </div>
+</div>
+</div> -->
+
+
+
+  <div class="single-product">
+    <div class="product-img">
+      <img class="img-fluid " style="height: auto;" src ="{{productItem.imgPath}}"/>
+
+      <div class="p_icon">
+
+        <a >
+          <i routerLink="/products/{{ productItem.name}}" class="far fa-eye" style="color: black;"></i>
+        </a>
+        <a >
+          <i class="fas fa-heart" (click)="liked=!liked"
+    [ngClass]="liked ? 'animate__animated animate__backInDown' : 'animate__animated animate__backInDown'">
+  </i>
+        </a>
+        <a >
+          <i (click)="ngAddToCart()" class="fas fa-shopping-cart" alt="view" style="color:rgb(46, 30, 30);"></i>
+        </a>
+      </div>
+    </div>
+    <div class="product-btm">
+      <a href="#" class="d-block">
+        <h4 class="pName"><b>{{productItem.name}}</b></h4>
+      </a>
+      <div class="mt-3">
+        <span class="mr-4">${{productItem.price}}</span>
+        <del style="font-size: 21px;"><b>${{productItem.oldPrice}}</b></del>
+      </div>
+    </div>
+  </div>

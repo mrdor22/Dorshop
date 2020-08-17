@@ -1,0 +1,51 @@
+<ngx-loading-bar [height]="'10px'" [includeSpinner]="false"></ngx-loading-bar>
+
+
+
+<div class="container navbar .navbar.navbar-default.navbar-static-top"  #myButton>
+  <div class="row" style="width: 100%;">
+    <div class="col-md-4">
+ <li class="nav-name"><a routerLink="/home"><b>YARONS</b></a></li>
+    </div>
+    <div class="col-md-4" style="left: 25px;">
+      <ul class="dor-nav">
+        <li class="d-inline-block mr-2"><a routerLink="/home"><b>Home</b></a></li>
+        <li class="d-inline-block mr-2"><a routerLink="/about"><b>About</b></a></li>
+        <li class="d-inline-block mr-2"><a routerLink="/contact"><b>Contact</b></a></li>
+        <li class="d-inline-block mr-2"><a routerLink="/Cart"><b>Cart</b></a></li>
+
+ Cart: {{(cart | async)}}
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <ul style="text-align: right; margin-right: 150px;">
+        <a style="color: rgb(53, 115, 231);">
+          <li class="d-inline-block mr-2"><i class="fa fa-search">
+            </i></li>
+        </a>
+        <a routerLink>
+          <li class="d-inline-block mr-2"><i class="fa fa-heart">
+            </i></li>
+        </a>
+        <a routerLink="/Cart">
+          <li class="d-inline-block mr-2"><i class="fa fa-shopping-cart">
+            </i></li>
+        </a>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<router-outlet></router-outlet>
+
+
+<app-navbar></app-navbar>

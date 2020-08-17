@@ -1,0 +1,24 @@
+.firstimage {
+    background-image: url('../../../assets/About_1.jpg');
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.secondimage{
+    background-image: url('../../../assets/About_2.jpg');
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.thirdimage{
+    background-image: url('../../../assets/About_3.jpg');
+    background-position: center !important;
+    background-size: cover !important;
+
+}
+
+.fourthimage{
+    background-image: url('../../../assets//About_4.jpg');
+    background-position: center !important;
+    background-size: cover !important;
+}

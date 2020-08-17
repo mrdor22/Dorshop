@@ -1,0 +1,145 @@
+.animate__animated, .animate__backInDown {
+  --animate-duration: 1.2s;
+}
+ img{
+     width: 100%;
+     height: 575px;
+ }
+
+ .text-center{
+
+   display: flex;
+   text-align: center;
+   align-items: center;
+  }
+
+  *{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.btn {
+    border-radius: 15px 30px 15px 30px;
+}
+
+
+.shop {
+    padding: 0;
+    margin: 0;
+}
+.row .card img {
+    transition: all 120ms;
+
+} */
+ /* .proImage {
+    transition: 0.3ms ease-in-out;
+
+      transition: .2s all ease-in;
+  -webkit-transform: scale(4);
+  -ms-transform: scale(4);
+  transform: scale();
+  z-index: 1;
+}  */
+.bestSeller {
+    font-size: 3em;
+    text-align: center;
+}
+.img{
+    display: block;
+
+}
+
+#main-image-title{
+font-size: 4em;
+letter-spacing: 0.3em;
+}
+
+#-g{
+
+    font-size: 2.5em;
+    letter-spacing: 0.2em;
+
+    }
+
+    #slider-3{
+        color: black;
+        font-size: 2.5em;
+    }
+
+#main-image-subtitle{
+    color: grey;
+    font-size: 0.em;
+
+}
+
+.price del{margin-left:10px;color:#6c757d}
+
+
+
+.carousel-control-next-icon {
+    color: black;
+    size: 2em;
+}
+
+::ng-deep .carousel-item {
+    display: block !important;
+    position: absolute;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition:all  1s;
+  }
+
+  ::ng-deep .carousel-item.active {
+    position: relative;
+    transform: translateY(0);
+    opacity: 1;
+    top: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* ngb-carousel {
+    width: inherit;
+    height: inherit;
+}
+
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.carousel-item {
+    display: flex !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1.2s ease-in-out, visibility 1.2s;
+    z-index: -1;
+    position: absolute;
+}
+
+.carousel-item.active{
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.carousel-control-prev {
+     z-index: 20;
+}
+
+
+.carousel-control-next {
+     z-index: 20;
+}
+
+.carousel-indicators{
+    z-index: 20;
+} */

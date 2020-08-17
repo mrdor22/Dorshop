@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Shoes Loue V",
+    "desc": "Incidunt et magni est ut.",
+    "fullDesc" : "this is the most comfy shoes you will ever wear!",
+    "price": "170.00",
+    "oldPrice": "200.00",
+    "id": 1,
+    "imgPath":    "../../assets/product_1.jpg"},
+
+
+
+  {
+    "name": "Bag",
+    "desc": "New summer bag!",
+    "fullDesc" : "This backpack given a modren appearance,With a front pocket,a comompartment and a laptop room",
+    "price": "220.00",
+    "oldPrice": "250.00",
+    "id": 2,
+    "imgPath": "../../assets/product_2.jpg"
+},  {
+    "name": "Belt",
+    "desc": "Brand new belt.",
+    "fullDesc" : " Alot of features included: Pure leather, Shape & Fit, 3.6CM, etc..",
+    "price": "23.00",
+    "oldPrice": "35.00",
+    "id": 3,
+    "imgPath": "../../assets/product_3.jpg"
+  },  {
+    "name": "Jeans",
+    "desc": "Levi's new collection",
+    "fullDesc" : "Perfect for those busy days when comfort is the key, super soft jeans in best fit, extra comfy guaranteed",
+    "price": "150.00",
+    "oldPrice": "220.00",
+    "id": 4,
+    "imgPath": "../../assets/jeans1.jpg"
+  },  {
+    "name": "Hat",
+    "desc": "New Hat.",
+    "fullDesc" : "At home in the urban jungle, our versatile baseball cap is a great addition to any wardrobe or combat rig. With a durable and stylish design, this cap offers casual sun protection. A velcro tightening system ensures you find the perfect fit, keeping your cap secure even when running!",
+    "price": "70.00",
+    "oldPrice": "100.00",
+    "id": 5,
+    "imgPath": "../../assets/product_4.jpg"
+  },  {
+    "name": "Scarf",
+    "desc": "limited scarf editions.",
+    "fullDesc" : "This 100% silk scarf is a wearable piece of art with non-repeating design. It is elegant, luxuriously soft to the touch, light and comfortable,Each scarf is printed with the original artwork hand-painted by master of design, and handled individually with care and finely finished with a hem.",
+    "price": "30.00",
+    "oldPrice": "40.00",
+    "id": 6,
+    "imgPath": "../../assets/product_5.jpg"
+  },  {
+    "name": "Jacket",
+    "desc": "Brand new jacket.",
+    "fullDesc" : "Men's hooded jacket from The North Face. Cut from lightweight ripstop fabric and packed with 600 down fill for extra warmth, the 'La Paz' features an elasticated hood, central zip fastening and adjustable hem for tailored insulation. Complete with two hand warmer pockets and signature branding to the chest and rear right shoulder. The compact coat packs away into its own pocket for carrying convenience.",
+    "price": "120.00",
+    "oldPrice": "160.00",
+    "id": 7,
+    "imgPath": "../../assets/product_6.jpg"
+  },  {
+    "name": "Flip-Flop",
+    "desc": "New 2020 summer flip-flop",
+    "fullDesc" : "A sparkling crystal corsage and a platform wedge sole elevate the look of a super-comfortable flip-flop.",
+    "price": "50.00",
+    "oldPrice": "70.00",
+    "id": 8,
+    "imgPath": "../../assets/product_7.jpg"
+  },  {
+    "name": "Gucci heels",
+    "desc": "By Italian designer",
+    "fullDesc" : "This is very unique ladies heels, This gorgeous heel features an open toe silhouette",
+    "price": "250.00",
+    "oldPrice": "300.00",
+    "id": 9,
+    "imgPath": "../../assets/shoes_1.jpg"
+  },  {
+    "name": "Nike  Air",
+    "desc": "Nike's new collection",
+    "fullDesc" : "Perfect for those training when comfort is the key, super soft shoes in best fit, extra comfy guaranteed",
+    "price": "150.00",
+    "oldPrice": "220.00",
+    "id": 10,
+    "imgPath": "../../assets/shoes_2.jpg"
+  },  {
+    "name": "Air Jordan",
+    "desc": "Brand new Jordans sneakers",
+    "fullDesc" : "A legit item, Alot of features included: Pure leather, Shape & Fit, lightness, etc..",
+    "price": "90.00",
+    "oldPrice": "11550.00",
+    "id": 11,
+    "imgPath": "../../assets/shoes_3.jpg"
+  },  {
+    "name": "Blue Asics",
+    "desc": "Brand new Asics shoes",
+    "fullDesc" : "Asics is a Japanese multinational corporation which produces footwear and sports equipment designed for a wide range of sports.",
+    "price": "70.00",
+    "oldPrice": "100.00",
+    "id": 12,
+    "imgPath": "../../assets/shoes_4_4.jpg"
+  }
+
+
+]
+
+
+
+
+
+
+
+
+

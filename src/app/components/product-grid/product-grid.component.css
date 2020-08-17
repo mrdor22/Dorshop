@@ -1,0 +1,128 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
+i {
+    font-family: FontAwesome;
+}
+
+.btn {
+    border-radius: 15px 30px 15px 30px;
+}
+
+.row .card img {
+    transition: all 120ms;
+}
+
+*/
+/* .proImage {
+    transition: 0.3ms ease-in-out;
+
+      transition: .2s all ease-in;
+  -webkit-transform: scale(4);
+  -ms-transform: scale(4);
+  transform: scale();
+  z-index: 1;
+}  */
+
+.bestSeller {
+    font-size: 3em;
+    text-align: center;
+}
+
+
+
+#main-image-title {
+    font-size: 4em;
+    letter-spacing: 0.3em;
+}
+
+#main-image-subtitle {
+    color: grey;
+}
+
+.price del {
+    margin-left: 10px;
+    color: #6c757d
+}
+
+.section_gap_top {
+    padding-top: 120px
+}
+
+@media (max-width: 1224px) {
+    .section_gap_top {
+        padding-top: 80px
+    }
+}
+
+.section_gap_bottom_custom {
+    padding-bottom: 70px;
+}
+
+.section_gap_top {
+    padding-top: 120px
+}
+
+@media (max-width: 1224px) {
+    .section_gap_top {
+        padding-top: 80px
+    }
+}
+
+.section_gap_bottom_custom {
+    padding-bottom: 70px
+}
+
+@media (max-width: 991px) {
+    .section_gap_bottom_custom {
+        padding-bottom: 30px
+    }
+}
+
+.main_title {
+    text-align: center;
+    margin-bottom: 75px
+}
+
+@media (max-width: 991px) {
+    .main_title {
+        margin-bottom: 45px
+    }
+}
+
+.main_title h2 {
+    font-size: 24px;
+    color: #2a2a2a;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.main_title h2 span {
+    position: relative;
+    display: inline-block;
+}
+
+.main_title h2 span:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
+    width: 100%;
+    height: 1px;
+    background: #ebedee
+}
+
+.main_title p {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 24px;
+    color: #797979;
+    margin-bottom: 0px
+}
+  app-trusted {
+    background-color: white;
+  }

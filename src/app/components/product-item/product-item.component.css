@@ -1,0 +1,289 @@
+
+
+.single-product {
+  text-align: center;
+  margin-bottom: 50px
+}
+
+.single-product .product-img {
+  position: relative;
+  overflow: hidden
+}
+
+
+
+.single-product .product-btm {
+  padding: 22px 25px 18px;
+  border: 1px solid #f0f2f1;
+  text-align: left
+}
+
+.single-product .product-btm h4 {
+  color: #4a4a4a;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  transition: all 300ms linear 0s
+}
+
+.single-product .product-btm h5 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #797979
+}
+
+.single-product .product-btm span {
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #2a2a2a
+}
+
+.single-product:hover .product-img .p_icon {
+  bottom: 0px
+}
+
+.single-product:hover .product-btm h4 {
+  color: #4b7de9
+}
+
+.product-img {
+  position: relative;
+  overflow: hidden
+}
+
+.single-product .product-img .p_icon {
+  width: 90% !important;
+  padding: 7px 30px;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: rgba(28, 125, 155, 0.4) !important;
+  transition: all 400ms ease
+}
+
+.single-product .product-img .p_icon a {
+  display: inline-block;
+  height: 36px;
+  line-height: 40px;
+  width: 36px;
+  text-align: center;
+  background: #fff;
+  border-radius: 30px;
+  color: #2a2a2a;
+  margin-right: 25px
+}
+
+.fas{
+color: rgb(0, 0, 0);
+}
+
+.single-product .product-img .p_icon a:last-child {
+  margin-right: 0px
+}
+
+.single-product .product-img .p_icon a:hover {
+  background: #e4e4e7 !important
+}
+
+.single-product .product-btm {
+  padding: 22px 25px 18px;
+  border: 1px solid #f0f2f1;
+  text-align: left
+}
+
+
+
+.single-product .product-btm h4 {
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  transition: all 300ms linear 0s
+}
+
+.single-product .product-btm h5 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #797979
+}
+
+.single-product .product-btm span {
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #2a2a2a
+}
+
+.single-product:hover .product-img .p_icon {
+  bottom: 0px
+}
+
+.single-product:hover .product-btm h4 {
+  color: #71cd14
+}
+
+.latest_product_inner {
+  margin-bottom: -35px
+}
+
+.new_product {
+  background: #f6f6f6;
+  padding: 90px 15px;
+  text-align: center
+}
+
+.new_product .product-img {
+  padding: 90px 0px;
+}
+
+.p_icon {
+  width: 90%;
+  padding: 7px 30px;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: rgba(113, 205, 20, 0.4);
+  transition: all 400ms ease;
+}
+
+.single-product .product-img .p_icon {
+  width: 90%;
+  padding: 7px 30px;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: rgba(113, 205, 20, 0.4);
+  transition: all 400ms ease
+}
+
+.single-product .product-img .p_icon a {
+  display: inline-block;
+  height: 36px;
+  line-height: 40px;
+  width: 36px;
+  text-align: center;
+  background: #fff;
+  border-radius: 30px;
+  color: #2a2a2a;
+  margin-right: 25px
+}
+
+.single-product .product-img .p_icon a:last-child {
+  margin-right: 0px
+}
+
+.single-product .product-img .p_icon a:hover {
+  color: #fff;
+  color: #4b7de9;
+}
+
+.single-product .product-img .p_icon a {
+  display: inline-block;
+  height: 36px;
+  line-height: 40px;
+  width: 36px;
+  text-align: center;
+  background: #fff;
+  border-radius: 30px;
+  color: #2a2a2a;
+  margin-right: 25px
+}
+
+.single-product .product-img .p_icon a:last-child {
+  margin-right: 0px
+}
+
+.single-product .product-img .p_icon a:hover {
+  color: #4b7de9;
+
+}
+
+.single-product .product-btm {
+  /* padding: 20px 22px 16px; */
+  border: 1px solid #f0f2f1;
+  text-align: center;
+}
+
+.single-product .product-btm h4 {
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  transition: all 300ms linear 0s
+}
+
+.single-product .product-btm h5 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #797979
+}
+
+.single-product .product-btm span {
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #2a2a2a
+}
+
+.single-product:hover .product-img .p_icon {
+  bottom: 0px
+}
+
+.product-btm {
+  padding: 22px 25px 18px;
+  border: 1px solid #f0f2f1;
+  text-align: left
+}
+
+.single-product .product-btm h4 {
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  transition: all 300ms linear 0s
+}
+
+.single-product .product-btm h5 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #797979
+}
+
+.single-product .product-btm span {
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #2a2a2a
+}
+
+.single-product:hover .product-img .p_icon {
+  bottom: 0px
+}
+
+.single-product:hover .product-btm h4 {
+  color: #4b7de9;
+}

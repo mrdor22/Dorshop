@@ -1,0 +1,335 @@
+/* .offcanvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #374250;
+  box-shadow: inset -4px 0 17px 0 rgba(0, 0, 0, .35);
+  opacity: 0;
+  z-index: 1;
+  overflow-y: auto;
+  transition: opacity .4s ease-out
+}
+
+.offcanvas-container.active {
+  opacity: 1
+}
+
+.offcanvas-menu {
+  position: relative;
+  width: 100%;
+  overflow: hidden
+}
+
+.offcanvas-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+.offcanvas-menu ul.menu {
+  position: relative;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  transition: all .4s cubic-bezier(.86, 0, .07, 1)
+}
+
+.offcanvas-menu ul.menu.off-view {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0)
+}
+
+.offcanvas-menu ul.menu.in-view {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}
+
+.offcanvas-menu ul li {
+  display: block
+}
+
+.offcanvas-menu ul li a {
+  display: block;
+  padding: 15px 20px;
+  transition: color .3s;
+  border-bottom: 1px solid rgba(255, 255, 255, .12);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-decoration: none
+}
+
+.offcanvas-menu ul li a:hover {
+  color: #0da9ef
+}
+
+.offcanvas-menu ul li.back-btn>a {
+  background-color: #313b47;
+  color: #fff
+}
+
+.offcanvas-menu ul li.back-btn>a::before {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-right: 8px;
+  border-top: .32em solid transparent;
+  border-right: .37em solid;
+  border-bottom: .32em solid transparent;
+  content: '';
+  opacity: .75
+}
+
+.offcanvas-menu ul li.active a {
+  color: #0da9ef
+}
+
+.offcanvas-menu ul li.has-children>span {
+  display: block;
+  position: relative;
+  width: 100%
+}
+
+.offcanvas-menu ul li.has-children>span>a {
+  padding-right: 65px
+}
+
+.offcanvas-menu ul li.has-children.active>span>a {
+  color: #0da9ef
+}
+
+.offcanvas-menu ul li.has-children .sub-menu-toggle {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 100%;
+  height: calc(100% - 1px);
+  transition: background-color .3s;
+  border-left: 1px solid rgba(255, 255, 255, .12);
+  color: rgba(255, 255, 255, .75);
+  cursor: pointer;
+  z-index: 1
+}
+
+.offcanvas-menu ul li.has-children .sub-menu-toggle::before {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  width: 0;
+  height: 0;
+  margin-top: -5px;
+  border-top: .35em solid transparent;
+  border-bottom: .35em solid transparent;
+  border-left: .4em solid;
+  content: ''
+}
+
+.offcanvas-menu ul li.has-children .sub-menu-toggle:hover {
+  background-color: rgba(255, 255, 255, .1)
+}
+
+.offcanvas-menu ul li.has-children>.offcanvas-submenu {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: auto;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  transition: all .4s cubic-bezier(.86, 0, .07, 1)
+}
+
+.offcanvas-menu ul li.has-children>.offcanvas-submenu.in-view {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}
+
+.offcanvas-menu ul li.has-children>.offcanvas-submenu.off-view {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0)
+}
+
+ul.menu {
+  position: relative;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  transition: all .4s cubic-bezier(.86, 0, .07, 1)
+}
+
+.offcanvas-menu ul.menu.off-view {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0)
+}
+
+.offcanvas-menu ul.menu.in-view {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}
+
+
+
+* {
+  font-family: 'Raleway', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.carousel-control-prev:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-control-next:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.ng-sidebar-container {
+  height: 100vh;
+}
+
+button {
+  color: red;
+}
+
+* {
+  top: 0;
+  right: 0;
+  left: 0;
+  right: 0;
+}
+
+.offcanvas-wrapper {
+  position: relative;
+  min-height: 100vh;
+  background-color: grey;
+  z-index: 10;
+}
+
+.offcanvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  box-shadow: inset -4px 0 17px 0 rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  z-index: 1;
+  overflow-y: auto;
+  transition: opacity 0.4s ease-out;
+}
+
+.offcanvas-container.active {
+  opacity: 1;
+}
+
+.offcanvas-header {
+  padding: 28px 20px;
+  border-bottom: 1px solid black;
+}
+
+.offcanvas-header .offcanvas-title {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.account-link {
+  display: table;
+  width: 100%;
+  padding: 20px 18px;
+  transition: background-color .3s;
+  border-bottom: 1px solid grey;
+  background-color: red;
+  text-decoration: none;
+}
+
+.account-link .user-ava, .account-link .user-info {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.account-link .user-info {
+  padding-left: 8px;
+}
+
+.account-link .user-info>.user-name {
+  margin-bottom: 2px;
+  color: white;
+}
+
+.account-link .user-info>span {
+  display: block;
+}
+
+.account-link:hover {
+  background-color: purple;
+}
+
+.site-backdrop {
+  position: fixed;
+  transition: opacity .35s, visibility .35s;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.no-csstransforms3d .offcanvas-wrapper, .no-csstransforms3d .navbar, .no-csstransforms3d .topbar {
+  transition: left .4s ease-in-out, background-color .2s;
+}
+
+.no-csstransforms3d .site-backdrop {
+  transition: left .4s ease-in-out, opacity .35s, visibility .35s;
+}
+
+.no-csstransforms3d .offcanvas-open .offcanvas-wrapper, .no-csstransforms3d .offcanvas-open .site-backdrop, .no-csstransforms3d .offcanvas-open .navbar, .no-csstransforms3d .offcanvas-open .topbar {
+  left: 290px;
+}
+
+.no-csstransforms3d .offcanvas-open .site-backdrop {
+  opacity: .2;
+  visibility: visible;
+}
+
+.csstransforms3d .offcanvas-wrapper, .csstransforms3d .navbar, .csstransforms3d .topbar {
+  transition: transform .4s ease-in-out, background-color .2s;
+}
+
+.csstransforms3d .site-backdrop {
+  transition: transform .4s ease-in-out, opacity .35s, visibility .35s;
+}
+
+.csstransforms3d .offcanvas-open .offcanvas-wrapper, .csstransforms3d .offcanvas-open .site-backdrop, .csstransforms3d .offcanvas-open .navbar, .csstransforms3d .offcanvas-open .topbar {
+  transform: translate3d(290px, 0, 0);
+}
+
+.csstransforms3d .offcanvas-open .site-backdrop {
+  opacity: .2;
+  visibility: visible;
+}
+
+.csstransforms3d .navbar, .csstransforms3d .offcanvas-wrapper, .csstransforms3d .topbar {
+  transition: background-color .2s, -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, background-color .2s;
+  transition: transform .4s ease-in-out, background-color .2s, -webkit-transform .4s ease-in-out
+}
+
+.csstransforms3d .site-backdrop {
+  transition: opacity .35s, visibility .35s, -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, opacity .35s, visibility .35s;
+  transition: transform .4s ease-in-out, opacity .35s, visibility .35s, -webkit-transform .4s ease-in-out
+}
+
+.csstransforms3d .offcanvas-open .navbar, .csstransforms3d .offcanvas-open .offcanvas-wrapper, .csstransforms3d .offcanvas-open .site-backdrop, .csstransforms3d .offcanvas-open .topbar {
+  -webkit-transform: translate3d(290px, 0, 0);
+  transform: translate3d(290px, 0, 0)
+}
+
+.csstransforms3d .offcanvas-open .site-backdrop {
+  opacity: .2;
+  visibility: visible
+}
+ */
