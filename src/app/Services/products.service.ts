@@ -28,13 +28,6 @@ export class ProductsService {
 
   ];
 
-  // suggestedProducts: Product[] = [
-  //   new Product("Gucci yellow heels","By Italian design","This is very unique ladies heels, This gorgeous heel features an open toe silhouette",200,250,9,'../../assets/shoes_1.jpg'),
-  //   new Product("Nike  Air","Nike's new collection","Perfect for those training when comfort is the key, super soft shoes in best fit, extra comfy guaranteed",150,220,10,'../../assets/shoes_2.jpg'),
-  //   new Product("Air Jordan","Brand new Jordans sneakers"," Alot of features included: Pure leather, Shape & Fit, lightness, etc..",90,110,11,'../../assets/shoes_3.jpg'),
-  //   new Product("Belt","Brand new belt"," Alot of features included: Pure leather, Shape & Fit, 3.6CM, etc..",20,35,12,'../../assets/shoes_4.jpg'),
-
-  // ]
   constructor(private http: HttpClient) {
 
 
@@ -71,19 +64,7 @@ this.http.get(this.url).toPromise().then(data => {
   // constructor() { }
 
 
-  // products: myList[] = [
-  // { id: 0, productName: "Bag", oldPrice: 90, price: 65, inStock: false, imgUrl: '../../assets/product_2.jpg',
-  //  clickMe: 'Buy'
-  // },
-  // { id: 1, productName: "Belt", oldPrice: 90, price: 60, inStock: true, imgUrl: '../../assets/product_3.jpg',
-  // clickMe: 'Buy'
-  // },
-  // { id: 2, productName: "Shoe", oldPrice: 90, price: 40, inStock: true, imgUrl: '../../assets/product_1.jpg',
-  // clickMe: 'Buy'
-  // },
-  // { id: 3, productName: "Jeans", oldPrice: 90, price: 90, inStock: true, imgUrl: '../../assets/jeans.jpg',
-  // clickMe: 'Buy'}
-  // ];
+
 
 // findAll(): myList[] {
 //   return this.products;
